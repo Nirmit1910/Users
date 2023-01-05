@@ -1,0 +1,67 @@
+.usercard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-top: 5px;
+  height: 600px;
+}
+
+.usercard-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  width: 600px;
+  max-height: 900px;
+  background-color: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(5px);
+  border-radius: 2vw;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 400px;
+}
+.usercard-box-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.usercard-box-img img {
+  width: 80%;
+  height: 80%;
+}
+
+.usercard-box-info {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.usercard-box-info h3 {
+  font-family: var(--font-family);
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 1.5vw;
+  border: white;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  width: 8vw;
+  height: 3vw;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 1em;
+}
+
+h1{
+  font-family: var(--font-family);
+  font-size: 1.2em;
+}
