@@ -1,6 +1,5 @@
 import React from "react";
 import "./usercard.css";
-import logo from "../../assets/css.png";
 import { useSelector,useDispatch } from "react-redux";
 import {reset}  from "../../state/index.js";
 
